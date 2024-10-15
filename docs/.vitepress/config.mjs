@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 
-// https://vitepress.dev/reference/site-config
+// https://vitepress.dev/reference/site-config1
 export default defineConfig({
   title: "Note📝",
   description: "xuexingwei Note",
