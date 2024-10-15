@@ -6,7 +6,7 @@
     "dev": "vitepress dev docs",
     "publish": "npm run build  & git add . && git commit -m 'update' && git push",
     "build": "vitepress build docs --outDir ./build",
-    "sync:doc": "git subtree push --prefix=build https://github.com/SuperRonin/note.git gh-pages",
+    "sync": "git subtree push --prefix=build https://github.com/SuperRonin/note.git gh-pages",
     "docs:preview": "vitepress preview docs"
   }
 }
