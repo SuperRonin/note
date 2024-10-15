@@ -16,11 +16,11 @@ hero:
 
 features:
   - icon:
-      src: /docker.svg
+      src: https://github.com/SuperRonin/picx-images-hosting/raw/master/note/docker.3d4s4px6q2.svg
     title: Docker
     details: A little docker note
   - icon:
-      src: /obsidian.svg
+      src: https://github.com/SuperRonin/picx-images-hosting/raw/master/note/obsidian.8ojopfi2xz.svg
     title: Obsidian
     details: A little Obsidian note
   - icon: 📝
