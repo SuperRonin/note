@@ -4,7 +4,7 @@
   },
   "scripts": {
     "dev": "vitepress dev docs",
-    "publish": "npm run build  && git add . && git commit -m 'update:doc' && git push origin main && npm run sync && exit",
+    "publish": "npm run build  && git add . && git commit -m 'update:doc' || echo 'No changes to commit' && git push origin main && npm run sync && exit",
     "build": "vitepress build docs --outDir ./build",
     "sync": "git subtree push --prefix=build https://github.com/SuperRonin/note.git gh-pages",
     "docs:preview": "vitepress preview docs"
