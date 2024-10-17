@@ -1,6 +1,8 @@
 {
   "devDependencies": {
-    "vitepress": "^1.4.1"
+    "vitepress": "^1.4.1",
+    "vitepress-markdown-timeline": "^1.2.1",
+    "vitepress-sidebar": "^1.27.1"
   },
   "scripts": {
     "dev": "vitepress dev docs",
@@ -8,5 +10,8 @@
     "build": "vitepress build docs --outDir ./build",
     "sync": "git subtree push --prefix=build https://github.com/SuperRonin/note.git gh-pages",
     "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "vite-plugin-vitepress-auto-sidebar": "^1.7.0"
   }
 }
