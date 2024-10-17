@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   title: "Note📝",
   description: "xuexingwei Note",
-  base: "/note/",
+  // base: "/note/",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -95,7 +95,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/SuperRonin/note/" },
     ],
   },
 });
