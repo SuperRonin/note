@@ -7,7 +7,7 @@ import timeline from "vitepress-markdown-timeline";
 
 // https://vitepress.dev/reference/site-config1
 export default defineConfig({
-  title: "Note📝",
+  title: "📝 Blog",
   description: "xuexingwei Note",
   base: "/note/",
   lastUpdated: true,

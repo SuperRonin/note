@@ -6,6 +6,11 @@ hero:
   name: "My Awesome Note"
   text: "just a little"
   tagline:
+  image:
+    src: https://img.icons8.com/?size=100&id=IQwdXd0kulpV&format=png&color=000000
+    # src: https://img.icons8.com/?size=100&id=AoAaWNCurE_G&format=png&color=000000
+    # src: https://img.icons8.com/?size=100&id=i1DTRHrbIVcm&format=png&color=000000
+    alt: VitePress
   actions:
     - theme: brand
       text: Docker
@@ -27,3 +32,5 @@ features:
     title: weekly
     details: Weekly work report
 ---
+
+<HomeUnderline />
