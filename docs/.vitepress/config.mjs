@@ -17,9 +17,10 @@ export default defineConfig({
       { text: "Home", link: "/" },
       { text: "Docker", link: "/Docker/简介" },
       { text: "Obsidian", link: "/Obsidian/基础语法" },
+      { text: "Books", link: "/Books/资源收集" },
     ],
     sidebar: generateSidebar({
-      manualSortFileNameByPriority: ["vue", "Docker", "Obsidian", "周报"],
+      manualSortFileNameByPriority: ["vue", "Books", "Docker", "Obsidian", "周报", "翻译", "Books"],
       collapsed: true,
       sortFolderTo: "bottom",
       documentRootPath: "/docs",
@@ -61,6 +62,8 @@ export default defineConfig({
     },
   },
   markdown: {
+    // 允许 Markdown 中使用 Vue 组件
+    lineNumbers: true,
     //时间线
     config: (md) => {
       md.use(timeline);

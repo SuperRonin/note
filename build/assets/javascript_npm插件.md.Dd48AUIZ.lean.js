@@ -1,0 +1,1 @@
+import{_ as t,c as a,o as e}from"./chunks/framework.RKshPt33.js";const d=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"javascript/npm插件.md","filePath":"javascript/npm插件.md","lastUpdated":null}'),r={name:"javascript/npm插件.md"};function n(s,p,c,o,i,m){return e(),a("div")}const l=t(r,[["render",n]]);export{d as __pageData,l as default};

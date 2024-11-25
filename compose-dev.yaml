@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-  epr-web:
+  note:
     build:
       context: .
       dockerfile: Dockerfile
